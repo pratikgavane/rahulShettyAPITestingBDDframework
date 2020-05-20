@@ -1,0 +1,4 @@
+1. mvn test verify
+2.mvn test verify -Dcucumber.options="--tags @AddPlace"
+
+on jenkin configuration no need to give mvn ..just provide test verify 

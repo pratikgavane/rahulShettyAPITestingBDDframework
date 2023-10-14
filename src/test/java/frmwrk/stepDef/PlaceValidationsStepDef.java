@@ -67,7 +67,6 @@ public class PlaceValidationsStepDef extends Utils{
 	        user_calls_with_http_request(resource, "GET");
 	        String actualName = getJsonPath(response, "name");
 	        assertEquals(expectedName, actualName);
-		       
 	    }
 	    
 	    @Given("DeletePlace PayLoad")
